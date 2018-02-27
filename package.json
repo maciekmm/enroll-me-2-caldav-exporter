@@ -1,0 +1,14 @@
+{
+  "name": "enroll-me-2-calendar-exporter",
+  "version": "0.0.1",
+  "description": "Enroll Me v2 Schedule to CalDAV exporter",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cat bookmarklet.js | bookmarkletter | tr -d '\n' > dist/export.bookmarklet"
+  },
+  "author": "Maciej Mionskowski <enroll-export@maciekmm.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "bookmarkletter": "^0.1.1"
+  }
+}

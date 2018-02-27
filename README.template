@@ -1,0 +1,10 @@
+# Enroll Me 2 calDAV exporter
+
+## Usage
+1. Copy the code located below
+2. Paste the code in the URL bar
+3. Prepend the code with _javascript:_
+
+```javascript
+%%%CODE%%%
+```

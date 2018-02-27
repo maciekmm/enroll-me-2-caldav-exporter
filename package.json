@@ -4,7 +4,7 @@
   "description": "Enroll Me v2 Schedule to CalDAV exporter",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cat bookmarklet.js | bookmarkletter | tr -d '\n' > dist/export.bookmarklet"
+    "build": "sh build.sh"
   },
   "author": "Maciej Mionskowski <enroll-export@maciekmm.net>",
   "license": "MIT",
